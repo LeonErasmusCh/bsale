@@ -17,13 +17,13 @@ window.onload = (event) => {
       .then((data) => {
         console.log(data);
         const html = data
-          .map((category) => {
+          .map((index) => {
             return `
             <div class="col-6 col-md-4 mt-2 ">
               <div class="card text-center">
                 <div class="card-body">
-                  <p class="card-title text-center"><strong>${category.name}</strong></p>
-                  <img src="${category.url_image}" class="card-img-top" alt="category image" >
+                  <p class="card-title text-center"><strong>${index.name}</strong></p>
+                  <img src="${index.url_image}" class="card-img-top" alt="index image" >
                   <a href="#" class="btn btn-primary">comprar</a>
                 </div>
               </div>
@@ -33,7 +33,7 @@ window.onload = (event) => {
         console.log(html);
 
         document
-          .querySelector("#categories")
+          .querySelector("#index")
           .insertAdjacentHTML("afterbegin", html);
       })
       .catch((err) => {

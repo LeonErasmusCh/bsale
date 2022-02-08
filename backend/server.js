@@ -8,19 +8,12 @@ const app = express();
 app.use(cors());
 
 
-// http://localhost:3000
-app.get("/", (req, res, next) => {
-  res.send(category);
-});
-
-
 
 // query string search by category http://localhost:3000/products
 // query string search by category http://localhost:3000/products?id=1
 // query string search by category http://localhost:3000/products?category=1
 
 app.get("/products", (req, res, next) => {
- //console.log(products);
  const filters = req.query;
  const filteredProducts = products.filter(product => {
     let isValid = true;
