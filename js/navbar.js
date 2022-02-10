@@ -48,7 +48,7 @@ const navbar = ` <nav class="navbar navbar-expand-lg navbar-dark fixed-top custo
             <li>
               <a
                 class="dropdown-item"
-                href="https://leonerasmusch.github.io/bsale//rones.html#"
+                href="https://leonerasmusch.github.io/bsale/rones.html#"
                 >ron</a
               >
             </li>
@@ -76,7 +76,7 @@ const navbar = ` <nav class="navbar navbar-expand-lg navbar-dark fixed-top custo
             <li>
               <a
                 class="dropdown-item"
-                href="https://leonerasmusch.github.io/bsale//vodka.html#"
+                href="https://leonerasmusch.github.io/bsale/vodka.html#"
                 >vodka</a
               >
             </li>
