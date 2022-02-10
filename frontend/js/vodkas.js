@@ -7,7 +7,7 @@ window.onload = (event) => {
   
     // onLoad, traer todos los categorias
     function getCategories() {
-      fetch("http://localhost:3000/products?category=7")
+      fetch("https://leonbsaleapi.herokuapp.com/products?category=7")
         .then((response) => {
           if (!response.ok) {
             throw Error("error");
@@ -21,11 +21,11 @@ window.onload = (event) => {
               return `
               <div class="col-6 col-md-4 mt-2 ">
                 <div class="card text-center">
-                  <div class="card-body">
+                  <div class="card-body" style="height:350px">
                     <p class="card-title text-center"><strong>${vodkas.name}</strong></p>
                     <img src="${vodkas.url_image}" class="card-img-top" alt="vodkas image" >
-                    <a href="#" class="btn btn-primary">comprar</a>
-                  </div>
+                    <a href="#" class="cardButton">comprar</a>
+                    </div>
                 </div>
               </div>`;
             })

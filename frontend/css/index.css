@@ -1,5 +1,56 @@
 @import 'nav.css';
 
-html{
+body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 245, 245) ;
+}
+
+#heading{
+    color: rgb(63, 63, 63);
+    margin-top: 15vh;
+}
+
+/* navbar css */
+
+.customNav{
+    background-color: rgb(63, 63, 63) ;
+    border-bottom: 1px solid rgb(94, 94, 94);
+}
+
+
+/* card css */
+
+
+.card-img-top {
+    height: 200px;
+    max-width: auto;
+    object-fit:contain
+}
+
+a.cardButton{
+    position: absolute;
+    bottom: 0 ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background-color: rgb(63, 63, 63);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    outline: none;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    width: 90%;
+}
+
+/* footer */
+
+.footerLink{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:coral;
 }

@@ -1,8 +1,8 @@
 
-const navbar = ` <nav class="navbar navbar-expand-lg navbar-light bg-light">
+const navbar = ` <nav class="navbar navbar-expand-lg navbar-dark fixed-top customNav">
 <div class="container-fluid">
   <div class="container">
-    <a class="navbar-brand" href="file:///C:/Users/56954/Desktop/ecommerce/frontend/src/index.html">Ecommerce</a>
+    <a class="navbar-brand" href="file:///C:/Users/56954/Desktop/ecommerce/frontend/src/index.html">El Barril</a>
     <button
       class="navbar-toggler float-end"
       type="button"
@@ -35,28 +35,28 @@ const navbar = ` <nav class="navbar navbar-expand-lg navbar-light bg-light">
               <a
                 class="dropdown-item"
                 href="file:///C:/Users/56954/Desktop/ecommerce/frontend/src/energeticas.html#"
-                >energeticas</a
+                >energetica</a
               >
             </li>
             <li>
               <a
                 class="dropdown-item"
                 href="file:///C:/Users/56954/Desktop/ecommerce/frontend/src/piscos.html#"
-                >piscos</a
+                >pisco</a
               >
             </li>
             <li>
               <a
                 class="dropdown-item"
                 href="file:///C:/Users/56954/Desktop/ecommerce/frontend/src/rones.html#"
-                >rones</a
+                >ron</a
               >
             </li>
             <li>
               <a
                 class="dropdown-item"
                 href="file:///C:/Users/56954/Desktop/ecommerce/frontend/src/bebidas.html#"
-                >bebidas</a
+                >bebida</a
               >
             </li>
             <li>
@@ -70,7 +70,7 @@ const navbar = ` <nav class="navbar navbar-expand-lg navbar-light bg-light">
               <a
                 class="dropdown-item"
                 href="file:///C:/Users/56954/Desktop/ecommerce/frontend/src/cervezas.html#"
-                >cervezas</a
+                >cerveza</a
               >
             </li>
             <li>
@@ -102,4 +102,4 @@ crossorigin="anonymous"
 
 // dynamic page title
 let pageTitle = document.getElementById("heading").textContent;
-document.title = ` ecommerce - ${pageTitle}`
+document.title = `El Barril - ${pageTitle}`
