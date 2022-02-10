@@ -62,7 +62,7 @@ body{
     border: 1px solid coral;
 }
 
-#price{
+.price{
     position: absolute;
     bottom: 0 ;
     left: 20%;

@@ -22,7 +22,7 @@ window.onload = (event) => {
                   <img src="${index.url_image}"  onerror="this.onerror=null;this.src='https://via.placeholder.com/212x212?text=imagen%20no%20disponible';"
                    class="card-img-top" alt="index image" >
                   <button type="button" class="btn cardButton">comprar</button>
-                  <p id="price"> $ ${index.price} </p>
+                  <p class="price"> $ ${index.price} </p>
                 </div>
               </div>
             </div>`;
