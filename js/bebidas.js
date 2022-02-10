@@ -28,7 +28,7 @@ window.onload = (event) => {
                   <p id="price"> $ ${bebida.price} </p>
                 </div>
               </div>
-            </div>``;
+            </div>`;
             })
             .join("");
           console.log(html);
