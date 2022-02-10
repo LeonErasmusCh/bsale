@@ -15,16 +15,14 @@ window.onload = (event) => {
         const html = data
           .map((index) => {
             return `
-            <div class="col-6 col-md-4 mt-2 ">
+            <div class="col-6 col-md-4 col-lg-3 mt-2 ">
               <div class="card text-center " >
-                <div class="card-body" style="height:450px">
+                <div class="card-body" style="height:350px">
                 <p class="card-title text-center"><strong>${index.name}</strong></p>
-                  <img src="${index.url_image}" class="card-img-top" alt="index image" >
-                  <div clas="list-group list-group-flush">
-                  <p id="price">precio $ ${index.price} </p>
-                  <p id="discount">descuento ${index.discount}%<p>
-                  </div>
-                  <a href="#" class="cardButton">comprar</a>
+                  <img src="${index.url_image}"  onerror="this.onerror=null;this.src='https://via.placeholder.com/212x212?text=imagen%20no%20disponible';"
+                   class="card-img-top" alt="index image" >
+                  <button type="button" class="btn cardButton">comprar</button>
+                  <p id="price"> $ ${index.price} </p>
                 </div>
               </div>
             </div>`;
@@ -44,7 +42,7 @@ window.onload = (event) => {
 
 
 
-
+// https://via.placeholder.com/212x212?text=imagen%20no%20disponible
 
 
 

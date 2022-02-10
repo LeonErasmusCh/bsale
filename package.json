@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  
   },
   "author": "Leon Erasmus",
   "license": "MIT",
   "dependencies": {
+    "bootstrap-icons": "^1.8.1",
     "save-dev": "^0.0.1-security"
   }
 }

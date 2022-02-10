@@ -1,8 +1,8 @@
 
 const navbar = ` <nav class="navbar navbar-expand-lg navbar-dark fixed-top customNav">
 <div class="container-fluid">
-  <div class="container">
-    <a class="navbar-brand" href="https://leonerasmusch.github.io/bsale/index.html">El Barril</a>
+  <div class="container ">
+    <a class="navbar-brand" href="https://leonerasmusch.github.io/bsale/index.html"><span><i id="nav-basket" class="bi bi-basket-fill"></i></span>El Barril</a>
     <button
       class="navbar-toggler float-end"
       type="button"
@@ -14,7 +14,7 @@ const navbar = ` <nav class="navbar navbar-expand-lg navbar-dark fixed-top custo
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <div class="collapse navbar-collapse float-end" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown">
           <a
@@ -86,7 +86,8 @@ const navbar = ` <nav class="navbar navbar-expand-lg navbar-dark fixed-top custo
     </div>
   </div>
 </div>
-</nav>`
+</nav>
+`
 
 // page links
 
@@ -98,8 +99,15 @@ rel="stylesheet"
 integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 crossorigin="anonymous"
 />
-<link rel="stylesheet" href="./css/index.css" />`
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="./css/index.css" />
+<link rel="icon" type="image/x-icon" href="./img/basket-fill.svg">
+`
 
 // dynamic page title
 let pageTitle = document.getElementById("heading").textContent;
 document.title = `El Barril - ${pageTitle}`
+
