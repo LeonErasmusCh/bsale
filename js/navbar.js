@@ -2,7 +2,7 @@
 const navbar = ` <nav class="navbar navbar-expand-lg navbar-dark fixed-top customNav">
 <div class="container-fluid">
   <div class="container">
-    <a class="navbar-brand" href="file:///C:/Users/56954/Desktop/ecommerce/frontend/src/index.html">El Barril</a>
+    <a class="navbar-brand" href="https://leonerasmusch.github.io/bsale/index.html">El Barril</a>
     <button
       class="navbar-toggler float-end"
       type="button"
@@ -34,49 +34,49 @@ const navbar = ` <nav class="navbar navbar-expand-lg navbar-dark fixed-top custo
             <li>
               <a
                 class="dropdown-item"
-                href="file:///C:/Users/56954/Desktop/ecommerce/frontend/src/energeticas.html#"
+                href="https://leonerasmusch.github.io/bsale/energeticas.html#"
                 >energetica</a
               >
             </li>
             <li>
               <a
                 class="dropdown-item"
-                href="file:///C:/Users/56954/Desktop/ecommerce/frontend/src/piscos.html#"
+                href="https://leonerasmusch.github.io/bsale/piscos.html#"
                 >pisco</a
               >
             </li>
             <li>
               <a
                 class="dropdown-item"
-                href="file:///C:/Users/56954/Desktop/ecommerce/frontend/src/rones.html#"
+                href="https://leonerasmusch.github.io/bsale//rones.html#"
                 >ron</a
               >
             </li>
             <li>
               <a
                 class="dropdown-item"
-                href="file:///C:/Users/56954/Desktop/ecommerce/frontend/src/bebidas.html#"
+                href="https://leonerasmusch.github.io/bsale/bebidas.html#"
                 >bebida</a
               >
             </li>
             <li>
               <a
                 class="dropdown-item"
-                href="file:///C:/Users/56954/Desktop/ecommerce/frontend/src/snacks.html#"
+                href="https://leonerasmusch.github.io/bsale/snacks.html#"
                 >snacks</a
               >
             </li>
             <li>
               <a
                 class="dropdown-item"
-                href="file:///C:/Users/56954/Desktop/ecommerce/frontend/src/cervezas.html#"
+                href="https://leonerasmusch.github.io/bsale/cervezas.html#"
                 >cerveza</a
               >
             </li>
             <li>
               <a
                 class="dropdown-item"
-                href="file:///C:/Users/56954/Desktop/ecommerce/frontend/src/vodka.html#"
+                href="https://leonerasmusch.github.io/bsale//vodka.html#"
                 >vodka</a
               >
             </li>
