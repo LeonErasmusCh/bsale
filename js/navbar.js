@@ -34,49 +34,49 @@ const navbar = ` <nav class="navbar navbar-expand-lg navbar-dark fixed-top custo
             <li>
               <a
                 class="dropdown-item"
-                href="https://leonerasmusch.github.io/bsale/energeticas.html#"
+                href="https://leonerasmusch.github.io/bsale/energeticas.html"
                 >energetica</a
               >
             </li>
             <li>
               <a
                 class="dropdown-item"
-                href="https://leonerasmusch.github.io/bsale/piscos.html#"
+                href="https://leonerasmusch.github.io/bsale/piscos.html"
                 >pisco</a
               >
             </li>
             <li>
               <a
                 class="dropdown-item"
-                href="https://leonerasmusch.github.io/bsale/rones.html#"
+                href="https://leonerasmusch.github.io/bsale/rones.html"
                 >ron</a
               >
             </li>
             <li>
               <a
                 class="dropdown-item"
-                href="https://leonerasmusch.github.io/bsale/bebidas.html#"
+                href="https://leonerasmusch.github.io/bsale/bebidas.html"
                 >bebida</a
               >
             </li>
             <li>
               <a
                 class="dropdown-item"
-                href="https://leonerasmusch.github.io/bsale/snacks.html#"
+                href="https://leonerasmusch.github.io/bsale/snacks.html"
                 >snacks</a
               >
             </li>
             <li>
               <a
                 class="dropdown-item"
-                href="https://leonerasmusch.github.io/bsale/cervezas.html#"
+                href="https://leonerasmusch.github.io/bsale/cervezas.html"
                 >cerveza</a
               >
             </li>
             <li>
               <a
                 class="dropdown-item"
-                href="https://leonerasmusch.github.io/bsale/vodka.html#"
+                href="https://leonerasmusch.github.io/bsale/vodka.html"
                 >vodka</a
               >
             </li>
