@@ -40,19 +40,18 @@ body{
 
 .cardButton{
     position: absolute;
-    bottom: 0 ;
-    right: 0;
-    transform: translate(-20%, -50%);
+    bottom: 5px ;
+    right: 5px;
+
     
     background-color: none;
     border: solid thin rgb(63, 63, 63);
     border-radius: 3px;
     color: rgb(63, 63, 63);
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 2px;
     outline: none;
-    padding: 5px;
-    margin-top: 5px;
+    padding:5px 10px;
     text-decoration: none;
     
 }
@@ -64,11 +63,40 @@ body{
 
 .price{
     position: absolute;
-    bottom: 0 ;
-    left: 20%;
+    bottom: 60px ;
+    left:22%;
     transform: translate(-50%, -5%);
 
+    font-size: 12px;
+    color: rgb(89, 89, 89);
     background-color: rgb(240, 240, 240);
+    border-radius: 3px;
+    padding:5px 10px;
+}
+
+.priceDiscount{
+    position: absolute;
+    bottom:30px ;
+    left:22%;
+    transform: translate(-50%, -6%);
+
+    font-size: 12px;
+    color: rgb(89, 89, 89);
+    background-color: rgb(240, 240, 240);
+    border-radius: 3px;
+    padding:5px 10px;
+}
+
+.finalPrice{
+    position: absolute;
+    bottom: 0 ;
+    left: 23%;
+    transform: translate(-40%, 43%);
+    
+
+    font-size: 12px;
+    background-color: rgb(63, 63, 63);
+    color: aliceblue;
     border-radius: 3px;
     padding:5px 10px;
 }

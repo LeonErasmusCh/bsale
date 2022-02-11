@@ -16,6 +16,8 @@ window.onload = (event) => {
           console.log(data);
           const html = data
             .map((energetica) => {
+              let discountValue = (index.price * index.discount) / 100;
+            let finalPrice = index.price - discountValue;
               return `
               <div class="col-6 col-md-4 col-lg-3 mt-2 ">
               <div class="card text-center " >
@@ -25,6 +27,8 @@ window.onload = (event) => {
                    class="card-img-top" alt="energetica image" >
                   <button type="button" class="btn cardButton">comprar</button>
                   <p class="price"> $ ${energetica.price} </p>
+                  <p class="priceDiscount">descuento ${energetica.discount}% </p>
+                  <p class="finalPrice">precio final $${finalPrice}</p>
                 </div>
               </div>
             </div>`;
