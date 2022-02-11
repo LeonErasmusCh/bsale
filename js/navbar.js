@@ -34,28 +34,28 @@ const navbar = ` <nav class="navbar navbar-expand-lg navbar-dark fixed-top custo
             <li>
               <a
                 class="dropdown-item"
-                href="https://leonerasmusch.github.io/bsale/energeticas.html"
+                href="https://leonerasmusch.github.io/bsale/energetica.html"
                 >energetica</a
               >
             </li>
             <li>
               <a
                 class="dropdown-item"
-                href="https://leonerasmusch.github.io/bsale/piscos.html"
+                href="https://leonerasmusch.github.io/bsale/pisco.html"
                 >pisco</a
               >
             </li>
             <li>
               <a
                 class="dropdown-item"
-                href="https://leonerasmusch.github.io/bsale/rones.html"
+                href="https://leonerasmusch.github.io/bsale/ron.html"
                 >ron</a
               >
             </li>
             <li>
               <a
                 class="dropdown-item"
-                href="https://leonerasmusch.github.io/bsale/bebidas.html"
+                href="https://leonerasmusch.github.io/bsale/bebida.html"
                 >bebida</a
               >
             </li>
@@ -69,7 +69,7 @@ const navbar = ` <nav class="navbar navbar-expand-lg navbar-dark fixed-top custo
             <li>
               <a
                 class="dropdown-item"
-                href="https://leonerasmusch.github.io/bsale/cervezas.html"
+                href="https://leonerasmusch.github.io/bsale/cerveza.html"
                 >cerveza</a
               >
             </li>

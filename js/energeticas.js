@@ -16,8 +16,8 @@ window.onload = (event) => {
           console.log(data);
           const html = data
             .map((energetica) => {
-              let discountValue = (index.price * index.discount) / 100;
-            let finalPrice = index.price - discountValue;
+              let discountValue = (energetica.price * energetica.discount) / 100;
+            let finalPrice = energetica.price - discountValue;
               return `
               <div class="col-6 col-md-4 col-lg-3 mt-2 ">
               <div class="card text-center " >

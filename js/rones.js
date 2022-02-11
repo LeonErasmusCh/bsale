@@ -14,8 +14,8 @@ window.onload = (event) => {
         console.log(data);
         const html = data
           .map((ron) => {
-            let discountValue = (index.price * index.discount) / 100;
-            let finalPrice = index.price - discountValue;
+            let discountValue = (ron.price * ron.discount) / 100;
+            let finalPrice = ron.price - discountValue;
             return `
               <div class="col-6 col-md-4 col-lg-3 mt-2 ">
               <div class="card text-center " >

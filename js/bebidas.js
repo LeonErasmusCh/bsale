@@ -17,8 +17,8 @@ window.onload = (event) => {
         .then((data) => {
           console.log(data);
           const html = data.map((bebida) => {
-            let discountValue = (index.price * index.discount) / 100;
-            let finalPrice = index.price - discountValue;
+            let discountValue = (bebida.price * bebida.discount) / 100;
+            let finalPrice = bebida.price - discountValue;
               return `
               <div class="col-6 col-md-4 col-lg-3 mt-2 ">
               <div class="card text-center " >
@@ -27,8 +27,8 @@ window.onload = (event) => {
                   <img src="${bebida.url_image}"  onerror="this.onerror=null;this.src='https://via.placeholder.com/212x212?text=imagen%20no%20disponible';"
                    class="card-img-top" alt="bebida image" >
                   <button type="button" class="btn cardButton">comprar</button>
-                  <p id="price"> $ ${bebida.price} </p>
-                  <p class="priceDiscount">descuento ${bebidas.discount}% </p>
+                  <p class="price"> $ ${bebida.price} </p>
+                  <p class="priceDiscount">descuento ${bebida.discount}% </p>
                   <p class="finalPrice">precio final $${finalPrice}</p>
                 </div>
               </div>

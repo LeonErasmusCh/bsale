@@ -36,14 +36,7 @@ window.onload = (event) => {
         //console.log(html);
         document.querySelector("#index").insertAdjacentHTML("afterbegin", html);
 
-        /*         // calculate discount price
-        const discountedPrice = data
-          .map((newPrice) => {
-            let discountValue = (newPrice.price * newPrice.discount) / 100;
-            let finalPrice = newPrice.price - discountValue;
-            return `<p id="discountedPrice">${finalPrice}</p>`;
-          }).join("");
-        document.getElementById("finalPrice").innerHTML = discountedPrice */
+
       })
       .catch((err) => {
         console.log(err);

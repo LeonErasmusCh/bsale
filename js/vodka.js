@@ -14,8 +14,8 @@ window.onload = (event) => {
         console.log(data);
         const html = data
           .map((vodka) => {
-            let discountValue = (index.price * index.discount) / 100;
-            let finalPrice = index.price - discountValue;
+            let discountValue = (vodka.price * vodka.discount) / 100;
+            let finalPrice = vodka.price - discountValue;
             return `
               <div class="col-6 col-md-4 col-lg-3 mt-2 ">
               <div class="card text-center " >
