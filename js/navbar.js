@@ -1,8 +1,8 @@
-
 const navbar = ` <nav class="navbar navbar-expand-lg navbar-dark fixed-top customNav">
 <div class="container-fluid">
   <div class="container ">
     <a class="navbar-brand" href="https://leonerasmusch.github.io/bsale/index.html"><span><i id="nav-basket" class="bi bi-basket-fill"></i></span>El Barril</a>
+
     <button
       class="navbar-toggler float-end"
       type="button"
@@ -14,8 +14,19 @@ const navbar = ` <nav class="navbar navbar-expand-lg navbar-dark fixed-top custo
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse float-end" id="navbarNavDropdown">
+    
+    <div class="collapse navbar-collapse float-end ml-3" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto">
+      
+      
+      <div class="input-group mr-4" id="searchField"> 
+        <input type="text" class="form-control" name="search" id="search" placeholder="buscar por nombre"  aria-describedby="basic-addon2" autocomplete="off" data-search>
+        <div class="input-group-append">
+          <button class="btn btn-outline-light" type="button" id="searchBtn"  >buscar</button>
+        </div>
+      </div>
+     
+
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
@@ -86,8 +97,10 @@ const navbar = ` <nav class="navbar navbar-expand-lg navbar-dark fixed-top custo
     </div>
   </div>
 </div>
+</div>
 </nav>
-`
+
+`;
 
 // page links
 
@@ -105,9 +118,9 @@ crossorigin="anonymous"
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 <link rel="stylesheet" href="./css/index.css" />
 <link rel="icon" type="image/x-icon" href="./img/basket-fill.svg">
-`
+`;
 
 // dynamic page title
-let pageTitle = document.getElementById("heading").textContent;
-document.title = `El Barril - ${pageTitle}`
+let pageTitle = document.getElementById("#heading").textContent;
+document.title = `El Barril - ${pageTitle}`;
 
